@@ -1,1 +1,191 @@
-# nhom4_12V.github.io
+<!DOCTYPE html>
+<html>
+   <head>
+   <meta charset = "utf-8">
+   <title>Tên trang Wed</title>
+   </head>
+   <body>
+   <div> 
+   <h1> Bài 7 và Bài 8 </h1>
+   <p>Bài 7:
+Luyện tập 1 trang 44 Tin học 12: Tìm ví dụ về phần tử HTML không thể lồng, tức là không thể có quan hệ cha con trong cây thông tin của trang web.
+Lời giải:
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Phần tử img</title>
+
+</head>
+
+<body>
+
+    <img src="example.jpg" alt="Mô tả hình ảnh">
+
+</body>
+
+</html>
+
+
+
+Luyện tập 2 trang 44 Tin học 12: Chọn một văn bản đơn giản soạn thảo tệp HTML để hiển thị nội dung văn bản đó vẽ cây thông tin các phần tử HTML của trang web vừa soạn thảo.
+Lời giải:
+
+<!DOCTYPE html>
+
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Văn bản về sen</title>
+
+</head>
+
+<body>
+
+    <p>"Trong đầm gì đẹp bằng sen, lá xanh bông trắng lại chen nhị vàng."</p>
+
+</body>
+
+</html>
+
+Cây thông tin
+
+<html>
+
+  |
+
+  ├── <head>
+
+  |     |
+
+  |     ├── <meta charset="UTF-8">
+
+  |     ├── <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  |     └── <title>Văn bản về sen</title>
+
+  |
+
+  └── <body>
+
+        |
+
+        └── <p>"Trong đầm gì đẹp bằng sen, lá xanh bông trắng lại chen nhị vàng."</p>
+
+
+
+
+Vận dụng 1 trang 44 Tin học 12: Em hãy tìm trên mạng các trang web hỗ trợ soạn thảo HTML trực tuyến
+Lời giải:
+
+Một số trang web phổ biến cung cấp các công cụ soạn thảo HTML trực tuyến:
+
+JSFiddle (https://jsfiddle.net/) .
+
+CodePen (JS Bin (https://jsbin.com/): .
+
+Repl.it (https://replit.com/)
+
+
+
+Vận dụng 2 trang 44 Tin học 12
+Lời giải:
+
+<!DOCTYPE html>
+
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Lịch sử phát triển HTML</title>
+
+</head>
+
+<body>
+
+    <h1><strong>Lịch sử phát triển HTML</strong></h1>
+
+    <p>Các chuẩn HTML của trang web hiện nay được nhà vật lý Tim Berners-Lee đưa ra lần đầu tiên vào những năm 1990 của thế kỷ XX tại trung tâm vật lý hạt nhân CERN.</p>
+
+    <p>Ý tưởng ban đầu của Berners-Lee là muốn thiết lập một chuẩn chung để thể hiện và chia sẻ các văn bản có thể trao đổi bên trong cơ quan CERN.</p>
+
+    <p>Hình ảnh sau là sơ đồ thông tin mà Tim Berners-Lee đưa ra lần đầu tiên để minh họa cho ý tưởng của mình. Trong sơ đồ này lần đầu tiên xuất hiện cụm từ “hypertext” (siêu văn bản).</p>
+
+    <!-- Bạn cần thay thế 'đường_dẫn_đến_hình_ảnh_của_bạn' bằng đường dẫn thực tế hoặc URL của hình ảnh mà bạn muốn chèn -->
+
+    <img src="đường_dẫn_đến_hình_ảnh" alt="Sơ đồ Hypertext của Tim Berners-Lee" style="max-width: 100%; height: auto;">
+
+    <p>Phiên bản đầu tiên của HTML được thiết lập vào cuối năm 1991 mang tên “các thẻ HTML” văn bản này do chính Tim Berners-Lee biên soạn.</p>
+
+    <p>Từ đó các phiên bản tiếp theo của HTML lần lượt ra đời cùng với sự phát triển của công nghệ internet.</p>
+
+    <p>Phiên bản hiện tại là HTML5, ra đời năm 2014.</p>
+
+</body>
+
+</html>
+</p>
+   <hr>
+   <p>Bài 8:
+   Luyện tập 1 trang 51 Tin học 12: Hãy sửa lại phần tử sau để làm nổi bật ý chính của câu: <p> thẻ strong vào thẻ em được sử dụng để nhấn mạnh vào nội dung trong phần tử. Thẻ B chỉ có tác dụng in đậm văn bản <p>.
+Lời giải:
+<p><strong>Thẻ strong</strong> vào <em>thẻ em</em> được sử dụng để nhấn mạnh vào nội dung trong phần tử. Thẻ <strong>B</strong> chỉ có tác dụng in đậm văn bản.</p>
+Luyện tập 2 trang 51 Tin học 12: Trình bày đoạn văn bản sau bằng mã HTML:
+INTERNET TỐC ĐỘ CAO
+ Dịch vụ Internet tốc độ cao là dịch vụ internet cáp quang chất lượng cao, ổn định, giá cả hợp lý.
+Các tính năng nổi bật:
+ Tốc độ siêu cao từ 150MBps trở lên
+ Lắp đặt nhanh chóng trong 24h
+Phù hợp với cá nhân/Hộ gia đình
+Tặng modem 2 băng tần 
+Miễn phí lắp đặt hỗ trợ 24/7 .
+Lời giải:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERNET TỐC ĐỘ CAO</title>
+</head>
+<body>
+<h1>INTERNET TỐC ĐỘ CAO</h1>
+<p><em>Dịch vụ Internet tốc độ cao là dịch vụ internet cáp quang chất lượng cao, ổn định, giá cả hợp lí.</em></p>
+<h2><strong>Các tính năng nổi bật:</strong></h2>
+<ul>
+    <li>Tốc độ siêu cao từ 150 MBps trở lên</li>
+    <li>Lắp đặt nhanh chóng trong 24h</li>
+    <li>Phù hợp với cá nhân/Hộ gia đình</li>
+    <li>Tặng modem 2 băng tần</li>
+    <li>Miễn phí lắp đặt hỗ trợ 24/7</li>
+</ul>
+</body>
+</html>
+Vận dụng 1 trang 51 Tin học 12: Hãy chỉ ra các bước cần thực hiện để sử dụng một màu cụ thể trong bức ảnh làm màu cho tiêu đề một bài thơ.
+Lời giải:
+Chọn màu cụ thể: Trước tiên, bạn cần quyết định màu sắc bạn muốn sử dụng cho tiêu đề của bài thơ.
+Chọn ảnh nền: Chọn một bức ảnh phù hợp để sử dụng làm nền cho tiêu đề. Bạn cũng có thể sử dụng một ảnh trắng đơn giản và thêm màu sắc sau đó.
+Tạo tiêu đề trong HTML: Sử dụng thẻ <h1>, <h2>, hoặc <h3> để tạo tiêu đề của bài thơ. 
+Thêm ảnh nền và thuộc tính color để thay đổi màu chữ.
+ Vận dụng 2 trang 51 Tin học 12: Hãy đưa ra các định dạng một đoạn văn bản để được kết quả như sau:
+ Lời giải:
+- Định dạng chữ đậm
+- Định dạng chữ thường.
+- Định dạng chữ cỡ chữ </p>
+</div>
+<p> Trang này được tạo bởi<em>nhóm4</em></p>
+</body>
+</html>
