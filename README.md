@@ -1,9 +1,4 @@
-<!DOCTYPE html>
 <html>
-   <head>
-   <meta charset = "utf-8">
-   <title>Tên trang Wed</title>
-   </head>
    <body>
    <div> 
    <h1> Bài 7 và Bài 8 </h1>
